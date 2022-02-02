@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://github.com/m42th" target="_blank" >Matheus Github</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explicar">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#grids">Exemplos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section id="explicar">
+        <div class="container explicar margin">
+            <h1>Olá, eu sou o Matheus </h1>
+            <p >sou formado em Análise e Desenvolvimento de Sistemas e atualmente estou estudando linguagem de programação Python, <br>
+            focando no Framework Django, e com a necessidade de utilizar o frontend eu comecei a utilizar o Bootstrap que é um Framework <br> 
+            muito completo e responsivo.
+            <br>
+            <br>
+            Eu já tinha estudado sobre as Grids na época de faculdade e pra falar a verdade eu tinha recebido uma explicação bem difícil de imaginar <br>
+            e colocar em prática, durante um curso rápido de Bootstrap eu consegui abstrair o que aprendi de uma forma visual, e explicada em HTML, <br>
+            decidi então fazer esse projeto simples com o intuito de repassar esse conhecimento que é bem útil na parte visual de sites, e aproveitar <br>
+            para trabalhar meu portifólio.
+            <br>
+            <br>
+            
+        </p>
+        <br>
+        <p>Este projeto foi escrito utilizando HTML e o Bootstrap, espero que ajude! <br> <br>
+            Aproveite e abra o código fonte da página para ver o detalhamento.
+        </p>
+        </div>
+    </section>
+
+
+
+    <section id="grids" class="margin grid-estilo">
+        <div class="container border border-warning margin">
+            <!-- Está div recebe a class row/linha que tem 12 colunas -->
+            <div class="row">
+                <h3 align="center">Esta div AMARELA tem 12 colunas, e será divida por 3</h3>
+                <p align="center">
+                    &ltdiv class="container"&gt <br>
+                    <br>
+                    &ltdiv class="row"&gt    esta é a class do Bootstrap que vai tratar a linha que tem 12 colunas
+                </p>
+                <!-- Esta div recebe a class col que esta recebendo 4 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-4 border border-primary text-center">
+                    <p>
+                        &ltdiv class="col-4"&gt <br>
+                        Primeira divisão e recebe quatro colunas
+                        <h1 align="center">4</h1>
+                        <br>
+                        <p align="center">|----|</p>
+
+                    </p>
+                </div>  
+                <!-- Esta div recebe a class col que esta recebendo 4 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-4 border border-success text-center">
+                    <p>
+                        &ltdiv class="col-4"&gt <br>
+                        Segunda divisão e recebe mais quatro colunas
+                        <h1 align="center">4</h1>
+                        <br>
+                        <p align="center">|----|</p>
+                        <br>
+                        Dentro de cada 1 dos 3 espaços temos 4 colunas.          
+                    </p>
+                </div>     
+                <!-- Esta div recebe a class col que esta recebendo 4 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-4 border border-danger text-center">
+                    <p>
+                        &ltdiv class="col-4"&gt <br>
+                        Terceira divisão e recebe mais quatro colunas
+                        <h1 align="center">4</h1>
+                        <br>
+                        <br>
+                        <p align="center">|----|</p>
+
+                    </p>
+                </div>                   
+            </div>
+            <br>
+            <h4 align="center">Somando as 3 temos 12 colunas</h4>
+        </div>
+
+
+        <br> <!-- Separação das section -->
+        
+        <!-- Explicação de 12 colunas dividas em 6 partes -->
+        <div class="container border border-primary margin">
+            <!-- Está div recebe a class row/linha que tem 12 colunas -->
+            <div class="row">
+                <h3 align="center">Esta div AZUL tem 12 colunas, e será divida por 6</h3>
+                <p align="center">
+                    &ltdiv class="container"&gt <br>
+                    <br>
+                    &ltdiv class="row"&gt    esta é a class do Bootstrap que vai tratar a linha que tem 12 colunas
+                </p>
+                <!-- Esta div recebe a class col que esta recebendo 2 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-2 border border-danger text-center">
+                    <p>
+                        &ltdiv class="col-2"&gt <br>
+                        Primeira divisão e recebe duas colunas
+                        <br><br>
+                        <h1 align="center">2</h1>
+                        <br>
+                        <p align="center">|--|</p>
+
+                    </p>
+                </div>  
+                <!-- Esta div recebe a class col que esta recebendo 2 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-2 border border-warning text-center">
+                    <p>
+                        &ltdiv class="col-2"&gt <br>
+                        Segunda divisão e recebe mais duas colunas
+                        <h1 align="center">2</h1>
+                        <br>
+                        <p align="center">|--|</p>
+                        <br>
+                        Dentro de cada 1 dos 6 espaços temos 2 colunas.          
+                    </p>
+                </div>     
+                <!-- Esta div recebe a class col que esta recebendo 2 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-2 border border-success text-center">
+                    <p>
+                        &ltdiv class="col-2"&gt <br>
+                        Terceira divisão e recebe mais duas colunas
+                        <h1 align="center">2</h1>
+                        <br>
+                        <p align="center">|--|</p>
+
+                    </p>
+                </div>
+                
+                <div class="col-2 border border-danger text-center">
+                    <p>
+                        &ltdiv class="col-2"&gt <br>
+                        Quarta divisão e recebe duas colunas 
+                        <br><br>
+                        <h1 align="center">2</h1>
+                        <br>
+                        <p align="center">|--|</p>
+
+                    </p>
+                </div>  
+                <!-- Esta div recebe a class col que esta recebendo 2 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-2 border border-warning text-center">
+                    <p>
+                        &ltdiv class="col-2"&gt <br>
+                        Quinta divisão e recebe mais duas colunas
+                        <h1 align="center">2</h1>
+                        <br>
+                        <p align="center">|--|</p>
+                        <br>
+                        Dentro de cada 1 dos 6 espaços temos 2 colunas.          
+                    </p>
+                </div>     
+                <!-- Esta div recebe a class col que esta recebendo 2 colunas das 12 colunas pertencentes da class row -->
+                <div class="col-2 border border-success text-center">
+                    <p>
+                        &ltdiv class="col-2"&gt <br>
+                        Sexta divisão e recebe mais duas colunas
+                        <br><br>
+                        <h1 align="center">2</h1>
+                        <br>
+                        <p align="center">|--|</p>
+
+                    </p>
+                </div>      
+            </div>
+            <br>
+            <h4 align="center">Somando as 6 que estão em uma linha temos 12 colunas</h4>
+        </div>
+
+    </section>
+</body>
+</html>
